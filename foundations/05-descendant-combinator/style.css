@@ -1,0 +1,16 @@
+/* Classes First */
+
+.container .text {
+  background-color: yellow;
+  color: red;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* Solutions combining types and classes
+div p
+
+div .text
+
+.container p
+*/
