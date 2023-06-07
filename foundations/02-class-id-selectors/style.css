@@ -1,0 +1,31 @@
+/* 1, 3, 5 bg colour and font-family */
+.bg-red {
+  background-color: #ffa7a7;
+  font-family: "Verdana", "DejaVu Sans", sans-serif;
+}
+
+/* 2 */
+#text-blue-36px {
+  color: #0000ff;
+  font-size: 36px;
+}
+
+/* 3 & 4 font size */
+.size-24px {
+  font-size: 24px;
+}
+
+/* 4 */
+#bglg-bold {
+  background-color: #80ff80;
+  font-weight: 700;
+}
+
+/* min number of selectors:
+- need 1 dedicated selector for the second html element
+- need 1 dedicated selector for 4th elmt (unique bg-colour and font-weight)
+- need 1 selector for odd-numbered elements
+- need 1 selector for 3 & 4 font-size
+
+i.e. we have 4 unique property groupings hence we require a minimum of 4 selectors
+*/
