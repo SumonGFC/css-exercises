@@ -1,0 +1,19 @@
+/* Left Button */
+.left {
+  background-color: rgb(37, 142, 95);
+  color: white;
+}
+
+/* Right Button */
+.right {
+  background-color: rgba(119, 194, 247, 0.818);
+}
+
+/* Both Buttons */
+.left,
+.right {
+  font-size: 28px;
+  font-family: "Helvetica", "Times New Roman", sans-serif;
+}
+
+/* This one was very easy. */
