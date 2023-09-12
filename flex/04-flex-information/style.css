@@ -10,6 +10,29 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  display: flex;
+  justify-content: center;
+}
+
+.info-cards {
+  margin: 32px;
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.plant-card {
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-basis: 200px;
+  gap: 10px
+}
+
+.plant-card .text {
+  text-align: center;
 }
 
 /* do not edit this footer */
